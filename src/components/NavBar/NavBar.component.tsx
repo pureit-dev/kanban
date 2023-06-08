@@ -1,14 +1,13 @@
 import React from 'react';
-import './NavBar.style.css'
+import './NavBar.style.css';
 
-function NavBar() {
+const NavBar: React.FC = () => {
 	return (
 		<nav className='navbar'>
-			<img src='/assets/logo-light.svg'/>
+			<img src='/assets/logo-light.svg' alt='kanban logo' />
 			<h1>Kanban</h1>
 		</nav>
-	
-	)
-}
+	);
+};
 
 export default NavBar;

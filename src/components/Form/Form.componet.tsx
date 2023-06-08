@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Form() {
+const Form: React.FC = () => {
 	return <h1></h1>;
 }
 

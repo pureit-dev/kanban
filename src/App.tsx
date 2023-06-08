@@ -5,7 +5,7 @@ import NavBar from './components/NavBar/NavBar.component';
 import SideBar from './components/SideBar/SideBar.component';
 import './index.css';
 
-function App() {
+const App: React.FC = () => {
 	return (
 		<Fragment >
 			<NavBar />

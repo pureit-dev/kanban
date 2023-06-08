@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Task() {
+const Task: React.FC = () => {
 	return <h1></h1>;
 }
 

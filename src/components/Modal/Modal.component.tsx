@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Modal() {
+const Modal: React.FC = () => {
 	return <h1></h1>;
 }
 

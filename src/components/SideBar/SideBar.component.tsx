@@ -1,7 +1,14 @@
 import React from 'react';
+import data from '../../../data.json'
 
-function SideBar() {
-	return <h1>Sidebar</h1>;
+const SideBar: React.FC = () => {
+	return (
+		{data.map(board) => {
+			return (
+
+			)
+		}}
+	)
 }
 
 export default SideBar;
